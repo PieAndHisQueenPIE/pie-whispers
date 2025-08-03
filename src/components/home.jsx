@@ -30,7 +30,7 @@ const getWallpaperColor = (index) => {
     8: "rgba(240, 128, 128, 0.3)",
     9: "rgba(221, 160, 221, 0.3)",
   };
-  return colors[index] || "rgba(255, 255, 255, 0.3)";
+  return colors[index] || "rgba(255, 255, 254, 0.3)";
 };
 
 const SvgIcon = () => {
