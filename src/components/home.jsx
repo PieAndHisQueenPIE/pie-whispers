@@ -177,7 +177,7 @@ const SvgIcon = () => {
       <div style={{
         position: "absolute", left: "90vw", top: "95vh", width: "6vw", textAlign: "center",
         color: "#fff", fontSize: "0.9vw", fontWeight: "500", fontFamily: "'Quicksand', sans-serif"
-      }}>{isPlaying ? "Pie Love bo" : "Play Music"}</div>
+      }}>{isPlaying ? "Pie Love PieSelf" : "Play Music"}</div>
 
       {workWindowOpen && (
         <ZoomModal type="work" closing={closingWindow} onClose={closeWithZoom}>
