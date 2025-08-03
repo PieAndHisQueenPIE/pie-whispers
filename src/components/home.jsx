@@ -20,7 +20,7 @@ import FaqWindow from "./Faq_Window";
 
 const getWallpaperColor = (index) => {
   const colors = {
-    1: "rgba(176, 224, 230, 0.9)",
+    1: "rgba(176, 224, 230, 0.3)",
     2: "rgba(176, 224, 230, 0.3)",
     3: "rgba(176, 224, 230, 0.3)",
     4: "rgba(176, 224, 230, 0.3)",
@@ -127,7 +127,7 @@ const SvgIcon = () => {
         borderRadius: "2vw",
         zIndex: 3,
         background: getWallpaperColor(wallpaperIndex),
-        backdropFilter: "blur(30px)",
+        backdropFilter: "blur(70px)",
         WebkitBackdropFilter: "blur(30px)",
         opacity: 0.9,
         transition: "background 0.4s ease-in-out",
