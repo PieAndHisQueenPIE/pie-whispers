@@ -20,9 +20,9 @@ import FaqWindow from "./Faq_Window";
 
 const getWallpaperColor = (index) => {
   const colors = {
-    1: "rgba(255, 123, 60, 0.3)",
-    2: "rgba(255, 160, 122, 0.3)",
-    3: "rgba(184, 216, 245, 0.3)",
+    1: "rgba(255, 255, 224, 0.3)",
+    2: "rgba(255, 255, 224, 0.3)",
+    3: "rgba(255, 255, 224, 0.3)",
     4: "rgba(255, 255, 224, 0.3)",
     5: "rgba(43, 43, 43, 0.3)",
     6: "rgba(213, 204, 204, 0.3)",
