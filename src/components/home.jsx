@@ -127,9 +127,9 @@ const SvgIcon = () => {
         borderRadius: "2vw",
         zIndex: 3,
         background: getWallpaperColor(wallpaperIndex),
-        backdropFilter: "blur(70px)",
-        WebkitBackdropFilter: "blur(70px)",
-        opacity: 1.9,
+        backdropFilter: "blur(30px)",
+        WebkitBackdropFilter: "blur(30px)",
+        opacity: 0.9,
         transition: "background 0.4s ease-in-out",
       }} />
 
